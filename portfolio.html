@@ -13,14 +13,14 @@
 <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    <!-- <header class="header">
+    <header class="header">
         <div class="container header__container">
-            Top line
+            <!-- Top line -->
             <a class="header__btm link" href="WebStudio"><span class="btm__first">Web</span>Studio</a>
             <nav class="header__nav">
                 <ul class="header__list text">
                     <li class="header__item">
-                        <a class="header__item--link link " href="./index.html">Студия</a>
+                        <a class="header__item--link link" href="./index.html">Студия</a>
                     </li>
                     <li class="header__item">
                         <a class="header__item--link link current" href="./portfolio.html">Портфолио</a>
@@ -48,9 +48,64 @@
                     </li>
                 </ul>
             </div>
+            <button type="button" class="open__menu--btn">
+                <svg class="about__icon" width=24 height=16>
+                    <use href="./img/icons.svg#icon-menu">
+                    </use>
+                </svg> </button>
         </div>
-    </header> -->
-    <!-- <main class="main">
+        <div class="mob__menu is-hidden">
+            <div class="container">
+                <div class="mob__menu--top">
+                    <button type="button" class="close__menu--btn">
+                        <svg class="mob__icon" width=40 height=40>
+                            <use href="./img/icons.svg#icon-close">
+                            </use>
+                        </svg> </button>
+                    <ul class="mob__list text">
+                        <li class="mob__item">
+                            <a class="mob__item--link link current" href="./index.html">Студия</a>
+                        </li>
+                        <li class="mob__item">
+                            <a class="mob__item--link link" href="./portfolio.html">Портфолио</a>
+                        </li>
+                        <li class="mob__item">
+                            <a class="mob__item--link link" href="Контакты">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mob__menu--bottom">
+                    <div class="mob__contact">
+                        <ul class="mob__item--list text">
+                            <li class="mob__link">
+                                <a class="mob__contact--tel link" href="tel:+380961111111">
+                                    +38 096 111 11 11</a>
+                            </li>
+                            <li class="mob__link">
+                                <a class="mob__contact--list link" href="mailto:info@example.com">
+                                    info@devstudio.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="menu__list text">
+                        <li class="menu__item">
+                            <a class="menu__item--link link" href="Instagram">Instagram</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__item--link link" href="Twitter">Twitter</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__item--link link" href="Facebook">Facebook</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__item--link link" href="LinkedIn">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
         <section class="section">
         <div class="container">
             <h1 hidden>Кнопки</h1>
@@ -61,7 +116,7 @@
             <li class="main__btm--text link"><button class="main__btm--title" type="button">Дизайн</button></li>
             <li class="main__btm--text link"><button class="main__btm--title" type="button">Маркетинг</button></li>
         </ul>
-                        My team
+                        <!-- My team -->
                         <ul class="main__title--text text">
                             <li class="main__jpg link"><a class="link" href="">
                                 <div class="main__after--scroll">
@@ -147,11 +202,11 @@
                         </ul>
             </div>
     </section>
-    </main> -->
-    <!-- <footer class="footer">
+    </main>
+    <footer class="footer">
         <div class="footer__div container">
             <section class="contacts">
-            Contacts
+            <!-- Contacts -->
             <h3 hidden>Контакты</h3>
             <a class="footer__link text link" href="WebStudio"><span class="btm__first">Web</span>Studio</a>
             <address class="footer__title">
@@ -210,6 +265,7 @@
                             </div>
                 </section>
             </div>
-    </footer> -->
+    </footer>
+        <script src=".//js/menu.js"></script>
 </body>
 </html>

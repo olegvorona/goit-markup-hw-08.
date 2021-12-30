@@ -104,13 +104,15 @@ img {
 
 @media screen and (min-width: 320px) {
   .section {
-    padding: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
 @media screen and (min-width: 480px) {
   .section {
-    padding: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -1601,8 +1603,7 @@ img {
 
 @media screen and (min-width: 320px) {
   .about__item--text {
-    width: 290px;
-    height: 120px;
+    width: 320px;
     padding: 0;
   }
 }
@@ -1611,7 +1612,6 @@ img {
   .about__item--text {
     width: 450px;
     padding: 0 15px;
-    height: 120px;
     padding: 0;
   }
 }
@@ -1619,7 +1619,6 @@ img {
 @media screen and (min-width: 768px) {
   .about__item--text {
     width: 768px;
-    height: 120px;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
@@ -1630,7 +1629,6 @@ img {
   .about__item--text {
     width: 1200px;
     display: flex;
-    flex-direction: column;
   }
 }
 
