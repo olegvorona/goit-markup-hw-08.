@@ -19,7 +19,7 @@
     justify-content: center;
     margin-bottom: 50px;
   }
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -79,7 +79,7 @@
     margin-bottom: 0;
   }
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .main__btm--text {
     display: flex;
     justify-content: center;
@@ -106,7 +106,7 @@
     flex-wrap: wrap;
     margin-bottom: -30px;
   }
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     width: 1170px;
     display: flex;
     flex-wrap: wrap;
@@ -150,7 +150,7 @@
     flex-basis: calc(100% / 2 - 30px);
     margin-bottom: 0;
   }
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     width: 1170px;
     flex-basis: calc(100% / 3 - 30px);
     display: flex;
@@ -179,7 +179,7 @@
     justify-content: center;
     align-items: center;
   }
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
     // width: 370px;
     display: flex;
     flex-wrap: wrap;
