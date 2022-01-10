@@ -67,11 +67,11 @@
   //   margin-right: 30px;
   // }
   @media screen and (min-width: 320px) {
-    width: 290px;
+    width: 100%;
     margin-top: 30px;
   }
   @media screen and (min-width: 480px) {
-    width: 450px;
+    width: 100%;
   }
   @media screen and (min-width: 768px) {
     width: 354px;
@@ -129,9 +129,9 @@
 .about__text--item {
   width: 44px;
   height: 44px;
-  //   &:not(:last-child) {
-  //     margin-right: 10px;
-  //   }
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 .about__text--title {
   width: 100%;
