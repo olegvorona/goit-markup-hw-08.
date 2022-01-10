@@ -1,8 +1,3 @@
-.portfolio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .main__btm {
   //   display: flex;
   // justify-content: center;
@@ -28,11 +23,9 @@
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    // margin-left: auto;
+    // margin-right: auto;
   }
-}
-.main__section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .main__btm--title {
   cursor: pointer;
@@ -112,12 +105,11 @@
     margin-bottom: -30px;
   }
   @media screen and (min-width: 1200px) {
-    width: 1170px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-left: -30px;
     margin-bottom: -30px;
     margin-right: 0;
   }
@@ -164,6 +156,9 @@
     margin-left: 30px;
     margin-bottom: 30px;
     margin-top: 0;
+    &:nth-child(3n + 1) {
+      margin-left: 0;
+    }
   }
 }
 .main__after--scroll {
@@ -185,7 +180,7 @@
     align-items: center;
   }
   @media screen and (min-width: 1200px) {
-    // width: 370px;
+    width: 368px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -205,7 +200,7 @@
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-  height: 100%;
+  height: 101%;
   transform: translateY(100%);
   transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
   .main__jpg:hover & {
